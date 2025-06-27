@@ -1,0 +1,484 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+/* Header */
+.top-bar {
+  background: #f1f1f1;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.top-bar img {
+  height: 28px;
+  margin-left: 8px;
+  align-items: center;
+}
+
+.top-bar .lang {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.qurbani-btn {
+  background: #ffffff;
+  border: 2px solid #8bc53f;
+  color: #0052cc;
+}
+
+.sponsor-btn,
+.donate-btn {
+  background: #007bff;
+  color: #fff;
+}
+
+.saction-1Bank {
+  background-image: url("./Accets/asset\ 50.svg");
+}
+
+.saction-1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 1300px;
+  display: flex;
+}
+
+.saction-1 p {
+  font-size: 40px;
+}
+
+.saction-1 img {
+  height: 600px;
+  width: 700px;
+}
+
+.saction-1 p i {
+  color: greenyellow;
+}
+
+.nav-2 {
+  background-color: rgb(122, 148, 82);
+  height: 130px;
+}
+
+.nav-2 input {
+  border: none;
+  border-radius: 50px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.nav-2 button {
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 19px;
+}
+
+.hero1-btn {
+  display: flex;
+  border: 1px solid black;
+  width: 20%;
+  margin-left: 30px;
+  padding: 8px 0;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.hero1-btn p {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.hero2-sec1 {
+  display: flex;
+  width: 26%;
+}
+
+.hero2-sec1 p {
+  background-color: black;
+  color: white;
+  padding: 10px 11px;
+  height: 30px;
+}
+
+.hero2-sec1 input {
+  padding: 10px 0px;
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.hero2-sec1 input:focus {
+  outline: none;
+}
+
+.hero2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9ab767;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.hero2-sec2 button {
+  text-align: center;
+  border: none;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.donation-bar {
+  height: 200px;
+  background-color: #eaf2e3;
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.donation-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.donation-input option {
+  padding: 30px;
+  background-color: #333;
+  color: white;
+}
+
+.donation-input select,
+.donation-input input {
+  padding: 30px;
+  border: none;
+  outline: none;
+}
+
+.donation-input span {
+  padding: 30px;
+  background-color: #333;
+  color: white;
+}
+
+.donation-button {
+  padding: 30px 50px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.donation-button:hover {
+  background-color: black;
+  color: wheat;
+}
+
+.quick-donate {
+  background-color: #8BC34A;
+  color: white;
+}
+
+.gaza img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.what h2 {
+  font-size: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.hero3 {
+  height: 50px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero3Card {
+  height: 150px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  padding: 20px 38px;
+  background-color: #9ab767;
+  border-radius: 4px;
+}
+
+.hero3Card:hover {
+  transform: scale(1.2);
+}
+
+.hero4 {
+  margin-top: 110px;
+  display: flex;
+  gap: 40px;
+  margin-left: 20px;
+}
+
+.hero4Card {
+  background-image: url("Accets/asset 14.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+
+}
+
+.hero4Card h1 {
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero4Card button {
+  margin-top: 50%;
+  border: none;
+  background-color: #bdc63f;
+  padding: 10px 40px;
+  margin-left: 8PX;
+  width: 90%;
+}
+
+.hero5Card {
+  background-image: url("Accets/asset 15.jpeg") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+
+}
+
+.hero5Card h1 {
+  align-items: center;
+  color:#222;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero5Card button {
+  margin-top: 50%;
+  border: none;
+  background-color: #bdc63f;
+  padding: 10px 40px;
+  margin-left: 8PX;
+  width: 90%;
+}
+
+.question::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  transition: transform 0.3s;
+}
+
+.faq.open .question::before {
+  transform: rotate(90deg);
+}
+
+.answer {
+  display: none;
+  font-size: 16px;
+  color: #555;
+  padding: 10px 0 0 25px;
+  line-height: 1.5;
+}
+
+.faq.open .answer {
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .donation-cards {
+    padding: 20px 10px;
+  }
+
+  .category-card {
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-card {
+    width: 100%;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+.subscribe-section {
+  background: rgba(98, 180, 45, 0.9);
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.subscribe-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.subscribe-section input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.subscribe-section button {
+  padding: 10px 25px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 40px 20px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #444;
+  padding-bottom: 20px;
+}
+
+.logo-social {
+  flex: 1;
+  min-width: 200px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 5px;
+}
+
+.dmca {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+.footer-links h4 {
+  color: #fff;
+}
+
+.footer-links p {
+  margin: 5px 0;
+}
+
+.footer-badges {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-badges img {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
